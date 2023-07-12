@@ -1,0 +1,45 @@
+body{
+    background-image: url('../img/rm.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+}
+h1{
+    color: #030202;
+    font-size: 50px;
+    font-weight: bold;
+}
+span{
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 5px;
+    background: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#morpion{
+    display: inline-block;
+    background-color: black;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#morpion div{
+    margin: 0 auto;
+    overflow: hidden;
+}
+#morpion button{
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 5px;
+    float: left;
+}
+#resultat{
+    color: #fff;
+    background: rgba(54, 155, 222, 0.92);
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 25px;
+}
